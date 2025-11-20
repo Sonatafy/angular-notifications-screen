@@ -1,6 +1,52 @@
 # AngularAssessment
 
+## Task: Notifications Flow
+
+**Setup:** Before you start, create a new branch to work on this exercise. Use your name and the date as the branch name, for example:
+
+`git checkout -b your-name/YYYY-MM-DD`
+
+Build a simple app with two screens.
+
+### Screen 1 – Main Screen
+- Show a big button labeled “Notifications”.
+- When the user taps the button, open the Notification Center screen.
+
+### Screen 2 – Notification Center
+- Show a title: “Notification Center”.
+- Show a small text link on the right: “Clear all”.
+- Show a vertical list of notifications.
+
+Each notification has:
+- An icon on the left.
+- A title (e.g. New Message).
+- A short description line.
+- A trash can icon on the right.
+
+### Expected behavior
+- Tapping the trash can removes only that notification from the list.
+- Tapping “Clear all” removes all notifications.
+
+When there are no notifications:
+- Show a message like: “You have no notifications.”
+- “Clear all” should not be active.
+- The user can go back from the Notification Center to the main screen.
+
+## Final Result
+
+![Notifications Screen](src/target/notifications.png)
+
+---
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.0.
+
+## Install Dependencies
+
+Before running the application, install the required dependencies:
+
+```bash
+npm install
+```
 
 ## Development server
 
